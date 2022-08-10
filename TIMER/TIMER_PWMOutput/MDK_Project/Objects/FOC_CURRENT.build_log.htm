@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.27.1.0
+Copyright (C) 2019 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: a b, c, LIC=RC93N-YGKU3-ARDXW-QP8T1-8VHY1-Z51PT
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Plus  Version: 5.33.0.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.15
+Assembler:       Armasm.exe V6.15
+Linker/Locator:  ArmLink.exe V6.15
+Library Manager: ArmAr.exe V6.15
+Hex Converter:   FromElf.exe V6.15
+CPU DLL:         
+Dialog DLL:      
+Target DLL:      CMSIS_AGDI_V8M.DLL V1.6.17.0
+Dialog DLL:      TCM.DLL V1.48.0.0
+ 
+<h2>Project:</h2>
+D:\Workspace\Git\AisinoChip\ACM32F403_PMSM_FOCsensorless\TIMER\TIMER_PWMOutput\MDK_Project\Project.uvprojx
+Project File Date:  08/10/2022
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.15', folder: 'C:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Project'
+assembling Startup_ACM32F4.s...
+compiling System_ACM32F4.c...
+compiling HAL_Uart.c...
+compiling HAL_GPIO.c...
+compiling bsp_adc.c...
+../Source_Code/APP/bsp_advance_tim.c(133): warning: implicit declaration of function 'HAL_TIMEx_ConfigBreakDeadTime' is invalid in C99 [-Wimplicit-function-declaration]
+    HAL_TIMEx_ConfigBreakDeadTime(&TIM1_Handler, &Tim_BDTR_Init_Para);
+    ^
+1 warning generated.
+compiling bsp_advance_tim.c...
+compiling main.c...
+compiling HAL_EFlash.c...
+compiling app.c...
+compiling HAL_TIMER_EX.c...
+compiling HAL_DMA.c...
+compiling HAL_ADC.c...
+compiling HAL_TIMER.c...
+linking...
+Program Size: Code=12796 RO-data=636 RW-data=52 ZI-data=2596  
+FromELF: creating hex file...
+After Build - User command #1: fromelf.exe --bin --output ./Out_Files/Project.bin ./Objects/Project.axf
+".\Objects\FOC_CURRENT.axf" - 0 Error(s), 1 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM.CMSIS.5.7.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_Project
+  C:\Keil_v5\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM33\Include
+
+<h2>Collection of Component Files used:</h2>
+Build Time Elapsed:  00:00:02
+</pre>
+</body>
+</html>

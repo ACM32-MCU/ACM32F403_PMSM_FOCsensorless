@@ -1,0 +1,19 @@
+--create .\Objects\FOC_CURRENT.lib
+..\..\..\Core_Drivers\CMSIS\arm_ARMv8MMLldfsp_math.lib
+.\objects\startup_acm32f4.o
+.\objects\system_acm32f4.o
+..\..\..\Core_Drivers\Device\System_Accelerate.lib
+.\objects\hal_dma.o
+.\objects\hal_gpio.o
+.\objects\hal_uart.o
+.\objects\hal_timer.o
+.\objects\hal_eflash.o
+..\..\..\Core_Drivers\HAL_Driver\Src\HAL_EFlash_EX.lib
+.\objects\hal_timer_ex.o
+.\objects\hal_adc.o
+..\..\..\Core_Drivers\HAL_Driver\Src\HAL_FAU_20210325.lib
+.\objects\app.o
+.\objects\bsp_advance_tim.o
+.\objects\bsp_adc.o
+.\objects\main.o
+..\..\..\MATLAB\FOC_CURRENT.lib
